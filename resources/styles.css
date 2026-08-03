@@ -108,7 +108,7 @@ li {
 
 /* Main Section */
 
-.image-container img{
+#focus .image-container img{
   display: flex;
   width: 100%;
   height: auto;
