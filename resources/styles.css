@@ -110,7 +110,7 @@ p {
   height: auto;
 }
 
-.image-container {
+#focus .image-container {
   max-width: 70%;
 }
 
