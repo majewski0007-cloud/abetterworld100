@@ -106,7 +106,7 @@ p {
 
 .image-container img{
   display: flex;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
@@ -152,10 +152,6 @@ p {
         width: 70%;
         height: auto;
     }
-
-    .main-content > div > :not(.image-container) {
-        max-width: 70%; /* matches .image-container img width in that breakpoint */
-    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -164,10 +160,7 @@ p {
         width: 100%;
         height: auto;
     }
-
-    .main-content > div > :not(.image-container) {
-        max-width: 100%;
-    }
+}
 }
 
 /* Footer */
