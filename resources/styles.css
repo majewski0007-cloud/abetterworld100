@@ -110,8 +110,11 @@ p {
   height: auto;
 }
 
-.main-content > div {
+.image-container {
   max-width: 70%;
+}
+
+.main-content > div {
   padding: 1rem 0;
   scroll-margin-top: 4rem;
 }
