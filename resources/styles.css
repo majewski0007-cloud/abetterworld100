@@ -78,7 +78,7 @@ li {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     .header {
         flex-direction: column;
         justify-content: center;
@@ -143,7 +143,7 @@ li {
     margin: 0;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     .main-content {
         padding-top: 5.75rem; /* To offset for fixed header. */
         max-width: 760px;
@@ -163,6 +163,10 @@ li {
 }
 
 @media only screen and (max-width: 460px) {
+    #focus .image-container {
+    max-width: 100%;
+    }
+  
     .image-container img{
         display: flex;
         width: 100%;
